@@ -8,6 +8,7 @@ public class ProductSpringWebApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProductSpringWebApplication.class, args);
+		System.out.println("Started successfully");
 	}
 
 }
