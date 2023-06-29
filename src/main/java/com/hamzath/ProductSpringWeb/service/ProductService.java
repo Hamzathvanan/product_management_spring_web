@@ -17,12 +17,12 @@ public class ProductService {
         System.out.println("In Show");
     }
 
-//    public void addProduct(Product p){
-//
-////        products.add(p);
-//        db.save(p);
-//    }
-//
+    public void addProduct(Product p){
+
+//        products.add(p);
+        db.save(p);
+    }
+
     public List<Product> getAllProducts(){
         return db.findAll();
     }
